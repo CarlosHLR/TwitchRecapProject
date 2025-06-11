@@ -1,0 +1,12 @@
+# TwitchRecap Git Ignore
+
+# Base de datos local
+*.db
+
+# Archivos de acceso (tokens)
+TK ACCESSO/
+save.txt
+
+# Archivos del sistema
+__pycache__/
+*.pyc
