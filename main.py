@@ -33,8 +33,8 @@ def cerrar_db(error):
     if hasattr(g, 'db'):
         g.db.close()
 
-TWITCH_CLIENT_ID = 'no9t3r7nrqj8mzdl8ipdi0hs3x8xn5'
-TWITCH_CLIENT_SECRET = 'sxcorhhfsk59w85uwfdy05rjkn48ta'
+TWITCH_CLIENT_ID = 'TWITCH_CLIENT_ID'
+TWITCH_CLIENT_SECRET = 'TWITCH_CLIENT_SECRET'
 REDIRECT_URI = 'https://d482-187-251-110-141.ngrok-free.app/redireccion_oauth'
 
 # URL de autorización de Twitch
